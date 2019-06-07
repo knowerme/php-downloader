@@ -1,0 +1,13 @@
+db:
+    dbname: databases
+    user: databases
+    password: databases
+    host: localhost
+    driver: pdo_mysql
+proxy: 'socks5h://[user:password@]proxyhost[:port]'
+transmission:
+    transmission_url: 'example.com'
+    transmission_port: '9091'
+    transmission_rpc_bind_address: '/rpc'
+    username: "login"
+    password: "pass"

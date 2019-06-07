@@ -1,0 +1,7 @@
+- Тут надо попробобвать реализовать setOptions->save() __TODO__ [app\OptionsDB.php](app\OptionsDB.php)
+- Доразобраться с записью типов в базу __TODO__ [app\OptionsDB.php](app\OptionsDB.php)
+- Добавить удаление пустых записей __TODO__ [app\OptionsDB.php](app\OptionsDB.php)
+- Добавить удаление из БД отдельного свойства опции __TODO__ [app\OptionsDB.php](app\OptionsDB.php)
+- Добавить проверку что такое имя уже существует в БД __TODO__ [app\OptionsDB.php](app\OptionsDB.php)
+- добавить когданить возможность использования: setOptions()->save() __TODO__ [app\OptionsDB.php](app\OptionsDB.php)
+- Вынести подключение к БД в отдельный класс DB __TODO__ [app\OptionsDB.php](app\OptionsDB.php)

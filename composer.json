@@ -1,0 +1,26 @@
+{
+    "description": "Downloads new series from torrent",
+    "license": "top-secret",
+    "authors": [
+        {
+            "name": "Knower Me"
+        }
+    ],
+    "require": {
+        "kriswallsmith/buzz": "0.9",
+        "kslr/transmission-php": "^1.1.2",
+        "digitalnature/php-ref": "^1.2",
+        "guzzlehttp/guzzle": "^6.3",
+        "paquettg/php-html-parser": "^2.0",
+        "symfony/options-resolver": "^4.2",
+        "longman/telegram-bot": "^0.56.0",
+        "doctrine/dbal": "^2.9",
+        "symfony/yaml": "^4.2",
+        "filp/whoops": "^2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
