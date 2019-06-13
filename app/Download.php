@@ -59,6 +59,7 @@ class Download
         $this->file = $this->site->finish();
         if ($this->file === false) return false;
         $this->file->save();
+        $this->site->setError(0); // сбрасываем количество ошибок
     }
 
 
